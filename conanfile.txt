@@ -1,0 +1,6 @@
+[requires]
+poco/1.9.4
+gtest/cci.20210126
+
+[generators]
+cmake
