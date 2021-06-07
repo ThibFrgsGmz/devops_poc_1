@@ -13,7 +13,7 @@ set -x
 rm -rf build
 
 # Create a construction directory and go into it
-mkdir build && pushd build
+mkdir build && pushd $_
 
 # Install the requirements specified in the recipe and build packages from source whose binary package is not found.
 conan install .. --build=missing
